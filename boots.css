@@ -1,0 +1,88 @@
+#header-div{
+    width: 100%;
+   color: azure;
+    min-height: 100px;
+    line-height: 50px;
+    text-align: center;
+  color: violet;
+    font-size: 50px;
+}
+
+#intro-div{
+    width: 100%;
+    color: azure;
+    min-height: 100px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box1{
+    width: 30%;
+    min-height: 200px;
+    line-height: 400px;
+    text-align: center;
+background-color: black;
+float: left;
+}
+
+#box2{
+    width: 30%;
+    min-height: 200px;
+    line-height: 25px;
+    text-align: center;
+background-color: black;
+float: left;
+margin-left: 5%;
+color: azure;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#box3{
+    width: 30%;
+    min-height: 200px;
+    line-height: 25px;
+    text-align: center;
+background-color:black;
+float: right;
+color: azure;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer-div{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:black;
+    font-size: smaller;
+    color: violet;
+    text-align: left;
+}
+
+h2{
+    color: violet;
+}
+table{
+    margin-left: 150px;
+    border-color: violet;
+    border-radius: 15px;
+}
+th,td{
+    border-radius: 5px;
+}
+
+.link:hover { color: #00FF00; } 
+a{
+    font-size: xx-small;
+}
