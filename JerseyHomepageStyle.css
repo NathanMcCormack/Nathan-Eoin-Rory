@@ -1,0 +1,82 @@
+.clearfix::after{
+    content: "";
+display: block;
+clear: both;
+}
+
+p.para1{
+float: left;
+text-align: center;
+border: 12px;
+border-color: white;
+float: center;
+}
+
+#header-div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#main-div{
+    width:100%;
+    background-color: white;
+}
+
+#side-div{
+    width: 18%;
+    min-height: 797px;
+    line-height: 35px;
+    background-color: rgb(10, 10, 10);
+    float: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    color: black;
+}
+
+#bodyarea-div{
+    width: 35%;
+    min-height: 396px;
+    line-height: 20px;
+    text-align: top;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5%;
+    
+    
+}
+
+#bodyarea-div2{
+    width: 30%;
+    min-height: 396px;
+    line-height: 20px;
+    text-align: top;
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-div{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    min-height: 10px;
+    line-height: 10px;
+    color: grey;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    
+}
